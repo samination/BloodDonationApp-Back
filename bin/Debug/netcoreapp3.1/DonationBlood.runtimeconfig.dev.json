@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\samination\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\samination\\.nuget\\packages"
+    ]
+  }
+}
