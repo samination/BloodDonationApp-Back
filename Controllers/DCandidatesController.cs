@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace DonationBlood.Controllers
 {
 
-    /*[Authorize]*/
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class DCandidatesController : ControllerBase

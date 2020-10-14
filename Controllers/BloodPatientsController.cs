@@ -11,8 +11,8 @@ using WebAPI.Models;
 
 namespace DonationBlood.Controllers
 {   
-    /*[Authorize(Roles =UserRoles.Admin)]
-    [Authorize]*/
+    /*[Authorize(Roles =UserRoles.Admin)]*/
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class BloodPatientsController : ControllerBase
